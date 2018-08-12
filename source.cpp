@@ -5,7 +5,7 @@ int main() {
   std::string input;
   std::string result;
   NumberGuess A = NumberGuess();
-  std::cout << A.GetGuessNo() << '\n';
+  // std::cout << A.GetGuessNo() << '\n'; // for debug
   while (true) {
     if (A.GetTriedTimes() > 7) {
       std::cout << "Lose\n";
